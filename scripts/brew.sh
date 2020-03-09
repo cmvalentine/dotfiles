@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 # Download latest updates to Homebrew
 brew update
 
