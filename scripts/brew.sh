@@ -7,7 +7,6 @@ brew update
 brew install \
     git \
     go \
-    hugo \
     python \
     rbenv \
     tree \
