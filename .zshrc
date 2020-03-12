@@ -1,5 +1,5 @@
 # History
-setopt APPEND_HISTORY            # append to history file
+setopt APPEND_HISTORY            # Append to history file
 setopt HIST_EXPIRE_DUPS_FIRST    # Expire a duplicate event first when trimming history.
 setopt HIST_IGNORE_DUPS          # Do not record an event that was just recorded again.
 setopt HIST_IGNORE_SPACE         # Do not record an event starting with a space.
