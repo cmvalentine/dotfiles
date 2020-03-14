@@ -10,6 +10,7 @@ setopt SHARE_HISTORY             # Share history between all sessions.
 
 # Aliases
 alias brewup='brew update && brew upgrade && brew cleanup'
+alias nvmup='nvm install node --reinstall-packages-from=node'
 
 # Environment variables
 export GOPATH=~/Developer/go
