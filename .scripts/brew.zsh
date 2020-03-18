@@ -18,7 +18,7 @@ brew cask install \
     docker \
     firefox \
     google-chrome \
-    hyper \
+    iterm2 \
     nordvpn \
     spotify \
     visual-studio-code \
