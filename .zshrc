@@ -7,7 +7,6 @@ setopt HIST_VERIFY               # Do not execute immediately upon history expan
 setopt INC_APPEND_HISTORY        # Write to the history file immediately, not when the shell exits.
 setopt SHARE_HISTORY             # Share history between all sessions.
 
-
 alias brewup='brew update && brew upgrade && brew cleanup'
 alias nodeup='nvm install node --reinstall-packages-from=node'
 alias npmlg='npm list -g --depth=0'
