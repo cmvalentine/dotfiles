@@ -6,6 +6,7 @@ brew update
 # Install CLI tools
 brew install \
     git \
+    github/gh/gh \
     go \
     python \
     rbenv \
@@ -19,7 +20,7 @@ brew cask install \
     docker \
     firefox \
     google-chrome \
-    hyper \
+    iterm2 \
     nordvpn \
     spotify \
     visual-studio-code \
