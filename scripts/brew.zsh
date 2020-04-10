@@ -15,6 +15,7 @@ brew install \
 # Install macOS applications
 brew cask install \
     1password \
+    brave-browser \
     docker \
     firefox \
     google-chrome \
