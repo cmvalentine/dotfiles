@@ -8,5 +8,5 @@ git_prompt() {
 }
 
 setopt PROMPT_SUBST
-export PROMPT='%F{blue}%~%f %F{red}%%%f '
+export PROMPT='%F{cyan}%~%f %F{red}%%%f '
 export RPROMPT='%F{yellow}$(git_prompt)%f'
