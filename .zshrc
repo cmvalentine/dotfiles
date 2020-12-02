@@ -14,9 +14,15 @@ alias npmlg='npm list -g --depth=0'
 export CLICOLOR=1
 export GOPATH=~/Developer/go
 
+source ~/.prompt
+
+# Load tools
 if (( $+commands[rbenv] )); then
     eval "$(rbenv init -)"
 fi
 
-source ~/.zshtheme
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 

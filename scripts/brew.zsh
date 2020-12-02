@@ -14,7 +14,7 @@ brew install \
     yarn
 
 # Install macOS applications
-brew cask install \
+brew install --cask \
     1password \
     docker \
     firefox \

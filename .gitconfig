@@ -20,3 +20,5 @@
     ss      = status -s
 [color]
     ui      = auto
+[pull]
+    rebase  = false
