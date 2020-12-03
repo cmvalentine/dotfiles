@@ -14,16 +14,16 @@
     cob     = checkout -b
     com     = checkout main
     cr      = commit --amend -m # commit rename
-    dfs     = diff --staged
+    ds      = diff --staged
     ls      = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
     pl      = pull
     ph      = push
     rb      = rebase
-    rc      = commit --amend --no-edit # recommit
+    rec     = commit --amend --no-edit # recommit
     s       = status
     ss      = status -s
-    uc      = reset --soft HEAD~1 # uncommit
-    us      = reset HEAD -- # unstage
+    unc     = reset --soft HEAD~1 # uncommit
+    uns     = reset HEAD -- # unstage
 [color]
     ui      = auto
 [pull]
