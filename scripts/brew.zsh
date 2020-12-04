@@ -6,7 +6,7 @@ brew update
 # Install CLI tools
 brew install \
     git \
-    github/gh/gh \
+    gh \
     go \
     python \
     rbenv \
