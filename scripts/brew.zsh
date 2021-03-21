@@ -6,7 +6,7 @@ brew update
 # Install CLI tools
 brew install \
     git \
-    github/gh/gh \
+    gh \
     go \
     python \
     rbenv \
@@ -16,6 +16,7 @@ brew install \
 # Install macOS applications
 brew install --cask \
     1password \
+    alfred \
     docker \
     firefox \
     google-chrome \
