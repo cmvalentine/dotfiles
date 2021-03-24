@@ -7,11 +7,10 @@ brew update
 brew install \
     git \
     gh \
-    go \
-    python \
+    heroku/brew/heroku \
     rbenv \
     tree \
-    yarn
+    wget
 
 # Install macOS applications
 brew install --cask \
