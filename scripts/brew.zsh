@@ -9,6 +9,7 @@ brew install \
     gh \
     heroku/brew/heroku \
     rbenv \
+    shared-mime-info \
     tree \
     wget
 
@@ -21,6 +22,5 @@ brew install --cask \
     google-chrome \
     iterm2 \
     nordvpn \
-    shared-mime-info \
     visual-studio-code \
     vlc
