@@ -21,5 +21,6 @@ brew install --cask \
     google-chrome \
     iterm2 \
     nordvpn \
+    shared-mime-info \
     visual-studio-code \
     vlc
