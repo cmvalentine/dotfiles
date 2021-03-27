@@ -5,6 +5,7 @@ brew update
 
 # Install CLI tools
 brew install \
+    curl \
     git \
     gh \
     heroku/brew/heroku \
