@@ -9,7 +9,6 @@ brew install \
     gh \
     heroku/brew/heroku \
     rbenv \
-    shared-mime-info \
     tree \
     wget
 
