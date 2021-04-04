@@ -10,6 +10,7 @@ brew install \
     gh \
     heroku/brew/heroku \
     rbenv \
+    starship \
     tree \
     wget
 
