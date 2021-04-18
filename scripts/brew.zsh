@@ -5,7 +5,9 @@ brew update
 
 # Install CLI tools
 brew install \
+    bat \
     curl \
+    exa \
     git \
     gh \
     heroku/brew/heroku \

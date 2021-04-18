@@ -8,6 +8,7 @@ setopt INC_APPEND_HISTORY        # Write to the history file immediately, not wh
 setopt SHARE_HISTORY             # Share history between all sessions.
 
 alias brewup='brew update && brew upgrade && brew cleanup'
+alias list='exa -abhl --git --icons'
 alias nodeup='nvm install node --reinstall-packages-from=node'
 alias npmlg='npm list -g --depth=0'
 
